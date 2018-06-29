@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".fragment.AddRecetaFragment">
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <ImageView
+            android:id="@+id/imgReceta"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:focusable="true"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/foto_principal" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/txtTitulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20px"
+                android:hint="Título de la Receta" />
+        </android.support.design.widget.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Ingredientes:"
+                android:textAppearance="@android:style/TextAppearance.Material.Large" />
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/txtIngrediente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20px"
+                android:hint="Título de la Receta" />
+
+            <Button
+                android:id="@+id/btnAddIngrediente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_redondeado"
+                android:text="+ Añadir Ingrediente"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Pasos:"
+                android:textAppearance="@android:style/TextAppearance.Material.Large" />
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/txtPaso"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20px"
+                android:hint="Título de la Receta" />
+
+            <Button
+                android:id="@+id/btnAddPaso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_redondeado"
+                android:text="+ Añadir Ingrediente"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnGrabarReceta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200px"
+            android:text="Grabar" />
+
+    </LinearLayout>
+</ScrollView>

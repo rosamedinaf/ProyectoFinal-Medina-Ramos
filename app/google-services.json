@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "615265915455",
+    "firebase_url": "https://saborapp-8e121.firebaseio.com",
+    "project_id": "saborapp-8e121",
+    "storage_bucket": "saborapp-8e121.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615265915455:android:a716b6fa3a82e828",
+        "android_client_info": {
+          "package_name": "com.example.innova.saborapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "615265915455-9ttptag36eu5tl76p8ngc7qsn3sic25d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.innova.saborapp",
+            "certificate_hash": "0589b26eb569f217f23e8488ece4eb6565c3b176"
+          }
+        },
+        {
+          "client_id": "615265915455-b5ghacim94pqc6rmsqrc816chd4rvgjf.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "615265915455-b5ghacim94pqc6rmsqrc816chd4rvgjf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqpUqEY8lfljUm-wzmZcybyMepn_seF84"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "615265915455-b5ghacim94pqc6rmsqrc816chd4rvgjf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <ImageView
+        android:id="@+id/app_name"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/app_name"
+        android:scaleType="center"
+        app:srcCompat="@mipmap/logo_morado" />
+
+    <EditText
+        android:id="@+id/edtUsuario"
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_name"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Usuario"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/edtContrasena"
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="234dp"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnIniciar"
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="151dp"
+        android:background="@color/colorMorado"
+        android:text="Iniciar Sesión"
+        android:textColor="@android:color/white"
+        tools:background="@color/colorMorado" />
+
+    <TextView
+        android:id="@+id/txtOlvidoContrasena"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btnIniciar"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="123dp"
+        android:autoLink="all"
+        android:text="¿Olvidó su contraseña?"
+        android:textAlignment="textEnd" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/txtRegistrate"
+        android:layout_toStartOf="@+id/txtRegistrate"
+        android:text="¿Eres nuevo? "
+        android:textAlignment="textEnd" />
+
+    <TextView
+        android:id="@+id/txtRegistrate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginEnd="133dp"
+        android:text="Registrate"
+        android:textAlignment="gravity"
+        android:textColor="@color/colorAzul" />
+
+
+</RelativeLayout>
